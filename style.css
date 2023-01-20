@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* CABEÇALHO */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    font-family: 'Sora';
+    padding: 20px 0;
+    background-color: #edf6ff;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navbar .logo span{
+    color: #008fff;
+    font-weight: 600;
+}
+
+.navbar .menu{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    font-family: 'Sora';
+    color: #000;
+}
+
+.navbar .menu a{
+    color: #000;
+    margin-left: 15px;
+    transition: all .6s;
+}
+
+.navbar .menu a:hover{
+    color: rgb(111, 111, 111);
+    transition: all .6s;
+}
+
+
+/* CABEÇALHO */
+
+/* CONTENT - HOME */
+
+.homepage{
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    background-color: #edf6ff;
+    box-sizing: border-box;
+}
+
+.content .img1{
+    height: 305px;
+    transition: .6s all;
+}
+
+.content .img1:hover{
+    height: 320px;
+    transition: .6s all;
+}
+
+.content .img2{
+    height: 42px;
+    margin-left: 15px;
+}
+
+.content p{
+    font-family: 'Sora';
+    font-size: 65px;
+    color: #78bff6;
+    font-weight: 400;
+    margin-right: 495px;
+}
+
+.content .p2{
+    font-family: 'Sora';
+    font-size: 75px;
+    color: #008fff;
+    font-weight: 600;
+    margin-right: 495px;
+}
+
+.content .p3{
+    width: 590px;
+    font-family: 'Sora';
+    font-size: 18px;
+    color: #AAA;
+    font-weight: 200;
+    margin-right: 495px;
+    margin-top: 10px;    
+    margin-bottom: 45px;
+}
+
+.content h1{
+    font-family: 'Inter';
+    font-size: 75px;
+    color: #008fff;
+    font-weight: 600;
+}
+
+.content h5{
+    font-family: 'Sora';
+    font-size: 20px;
+    color: #aaa;
+    font-weight: 200;
+    width: 470px;
+    margin-top: 15px;
+}
+
+.content .a2{
+    font-family: 'Sora';
+    background-color: #008fff;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 85px;
+    transition: .6s all;
+}
+
+.content .a2:hover{
+    padding: 20px 60px;
+    transition: .6s all;
+}
+
+/* CONTENT - HOME */
+
+/* CONTENT - EXP */
+
+.content-exp {
+    height: 250px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.content-exp p{
+    font-family: 'Inter';
+    font-size: 25px;
+    color: #6c33fc;
+    margin-top: 95px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.content-exp h3{
+    font-family: 'Sora';
+    margin-top: 25px;
+    text-align: center;
+    font-size: 45px;
+    color: #2b0196;
+    font-weight: 600;
+}
+
+.content-card{
+    column-width: 250px;
+    column-gap: 5px;
+    margin-bottom: 165px;
+}
+
+.card{
+    padding: 10px;
+    margin: 0 0 1em 0;
+    border-radius: 10px;
+    border-color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 45px;
+    transition: all .4s;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover{
+    border: solid;
+    border-color: #008fff;
+    border-width: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    transition: all .4s;
+}
+
+.card img{
+    height: 65px;
+}
+
+.card h2{
+    font-family: 'Sora';
+    font-size: 25px;
+    color: #008fff;
+}
+
+.card h5{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* CONTENT - EXP */
+
+/* PROJECTS */
+
+.projects{
+    height: 550px;
+    background-color: #edf6ff;
+}
+
+.project-card{
+    padding: 120px 0px 0px 0px;
+}
+
+.content-projects{
+    column-width: 250px;
+    column-gap: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card img{
+    height: 125px;
+    margin-bottom: 15px;
+}
+
+.project-card h3{
+    font-family: 'Sora';
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.project-card h6{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.project-card .img2{
+    background-color: #008fff;
+    padding: 15px 15px;
+    border-radius: 900px;
+    margin-top: 20px;
+    height: 50px;
+    transition: .6s all;
+}
+
+.project-card .img2:hover{
+    background-color: #46acfa;
+    padding: 17px 17px;
+    transition: .6s all;
+    height: 55px;
+}
+
+/* PROJECTS */
+
+/* SOBRE */
+
+.sobre{
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.sobre-eu{
+    font-family: 'Sora';
+    font-size: 50px;
+    margin-bottom: 125px;
+}
+
+.sobre-eu span{
+    font-family: 'Sora';
+    color: #008fff;
+}
+
+.content-sobre img{
+    height: 305px;
+    border-radius: 900px;
+    margin-right: 95px;
+}
+
+.content-sobre{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.content-sobre p{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.content-sobre .p2{
+    font-family: 'Sora';
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #4594cf;
+}
+
+.content-sobre .p3{
+    font-family: 'Sora';
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.content-sobre span{
+    color: #008fff;
+    font-weight: 900;
+    font-family: 'Sora';
+    font-size: 25px;
+}
